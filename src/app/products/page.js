@@ -16,7 +16,7 @@ export default async function Products() {
     const products = await getProducts()
     return (
 
-        <main className="container mx-auto flex min-h-screen flex-wrap items-center justify-around p-3 ">
+        <main className="container mx-auto flex min-h-screen flex-wrap items-center justify-around p-3 my-5">
             {
             products.map((pro)=>(
                 <Card
